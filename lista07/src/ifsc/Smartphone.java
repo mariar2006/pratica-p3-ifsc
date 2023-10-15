@@ -1,6 +1,7 @@
 package ifsc;
 
 public class Smartphone extends Produto {
+	
 	private String dimensoesTela;
 	private String cor;
 	

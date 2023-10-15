@@ -4,14 +4,14 @@ import java.util.ArrayList;
 
 public class Desktop extends Produto{
 	
-	private boolean gamer;
+	private Boolean gamer;
 	private ArrayList<String> pecas;
 	
 	
-	public boolean isGamer() {
+	public Boolean getGamer() {
 		return gamer;
 	}
-	public void setGamer(boolean gamer) {
+	public void setGamer(Boolean gamer) {
 		this.gamer = gamer;
 	}
 	public ArrayList<String> getPecas() {
